@@ -1,0 +1,33 @@
+[WARN] 2021-07-28 03:21:07.254 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 27572ms for sessionid 0x100110712be0011
+[WARN] 2021-07-28 03:21:07.254 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 27565ms for sessionid 0x100110712be0012
+[WARN] 2021-07-28 03:21:07.258 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 30678ms for sessionid 0x100110712be0013
+[INFO] 2021-07-28 03:21:07.696 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 27572ms for sessionid 0x100110712be0011, closing socket connection and attempting reconnect
+[INFO] 2021-07-28 03:21:07.696 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 27565ms for sessionid 0x100110712be0012, closing socket connection and attempting reconnect
+[INFO] 2021-07-28 03:21:07.711 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 30678ms for sessionid 0x100110712be0013, closing socket connection and attempting reconnect
+[INFO] 2021-07-28 03:21:08.176 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[INFO] 2021-07-28 03:21:08.175 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[WARN] 2021-07-28 03:21:08.183 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[WARN] 2021-07-28 03:21:08.185 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[INFO] 2021-07-28 03:21:08.220 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[WARN] 2021-07-28 03:21:08.236 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[WARN] 2021-07-28 03:21:08.239 org.apache.dolphinscheduler.server.worker.registry.WorkerRegistry:[115] - worker : 192.168.0.103:1234 connection SUSPENDED 
+[INFO] 2021-07-28 03:21:09.262 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-07-28 03:21:09.267 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[INFO] 2021-07-28 03:21:09.280 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100110712be0012, negotiated timeout = 40000
+[INFO] 2021-07-28 03:21:09.280 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-07-28 03:21:09.284 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-07-28 03:21:09.331 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-07-28 03:21:09.331 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[INFO] 2021-07-28 03:21:09.334 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100110712be0011, negotiated timeout = 40000
+[INFO] 2021-07-28 03:21:09.335 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-07-28 03:21:09.415 org.apache.dolphinscheduler.server.worker.WorkerServer:[151] - worker server is stopping ..., cause : i was judged to death, release resources and stop myself
+[INFO] 2021-07-28 03:21:09.445 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-07-28 03:21:09.448 org.apache.dolphinscheduler.server.worker.registry.WorkerRegistry:[112] - worker : 192.168.0.103:1234 reconnected to zookeeper
+[INFO] 2021-07-28 03:21:09.569 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-07-28 03:21:09.569 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+[INFO] 2021-07-28 03:21:09.570 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100110712be0013, negotiated timeout = 40000
+[INFO] 2021-07-28 03:21:09.570 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-07-28 03:21:09.571 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-07-28 03:21:12.458 org.apache.dolphinscheduler.remote.NettyRemotingServer:[237] - netty server closed
+[INFO] 2021-07-28 03:21:12.494 org.apache.dolphinscheduler.server.worker.registry.WorkerRegistry:[141] - worker node : 192.168.0.103:1234 unRegistry from ZK /dolphinscheduler/nodes/worker/default/192.168.0.103:1234.
+[INFO] 2021-07-28 03:21:12.496 org.apache.dolphinscheduler.server.worker.registry.WorkerRegistry:[144] - heartbeat executor shutdown

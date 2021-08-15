@@ -1,0 +1,4 @@
+[INFO] 2021-08-09 10:37:20.407 org.apache.dolphinscheduler.server.worker.WorkerServer:[151] - worker server is stopping ..., cause : shutdownHook
+[INFO] 2021-08-09 10:37:23.520 org.apache.dolphinscheduler.remote.NettyRemotingServer:[237] - netty server closed
+[INFO] 2021-08-09 10:37:23.590 org.apache.dolphinscheduler.server.worker.registry.WorkerRegistry:[141] - worker node : 172.31.232.142:1234 unRegistry from ZK /dolphinscheduler/nodes/worker/default/172.31.232.142:1234.
+[INFO] 2021-08-09 10:37:23.593 org.apache.dolphinscheduler.server.worker.registry.WorkerRegistry:[144] - heartbeat executor shutdown

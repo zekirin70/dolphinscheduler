@@ -1,0 +1,4 @@
+[INFO] 2021-07-30 22:21:05.797 org.apache.curator.framework.imps.CuratorFrameworkImpl:[955] - backgroundOperationsLoop exiting
+[INFO] 2021-07-30 22:21:05.942 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100110712be000c
+[INFO] 2021-07-30 22:21:05.942 org.apache.zookeeper.ZooKeeper:[693] - Session: 0x100110712be000c closed
+[INFO] 2021-07-30 22:21:05.949 org.apache.dolphinscheduler.server.master.processor.queue.TaskResponseService:[121] - TaskResponseWorker stopped

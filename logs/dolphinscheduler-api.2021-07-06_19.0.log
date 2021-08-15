@@ -1,0 +1,437 @@
+[INFO] 2021-07-06 19:11:33.563 org.eclipse.jetty.util.log:[169] - Logging initialized @4024ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] 2021-07-06 19:11:33.685 org.eclipse.jetty.server.Server:[375] - jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 11.0.8+10-b944.34
+[INFO] 2021-07-06 19:11:33.703 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Initializing Spring embedded WebApplicationContext
+[INFO] 2021-07-06 19:11:33.756 org.eclipse.jetty.server.session:[334] - DefaultSessionIdManager workerName=node0
+[INFO] 2021-07-06 19:11:33.756 org.eclipse.jetty.server.session:[339] - No SessionScavenger set, using defaults
+[INFO] 2021-07-06 19:11:33.758 org.eclipse.jetty.server.session:[132] - node0 Scavenging every 600000ms
+[INFO] 2021-07-06 19:11:33.761 org.eclipse.jetty.server.handler.ContextHandler:[916] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6e068ac9{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.14478499180918834200.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],AVAILABLE}
+[INFO] 2021-07-06 19:11:33.762 org.eclipse.jetty.server.Server:[415] - Started @4225ms
+[INFO] 2021-07-06 19:11:34.938 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:11:34.991 org.apache.curator.utils.Compatibility:[48] - Running in ZooKeeper 3.4.x compatibility mode
+[INFO] 2021-07-06 19:11:34.992 org.apache.curator.utils.Compatibility:[61] - Using emulated InjectSessionExpiration
+[INFO] 2021-07-06 19:11:35.027 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:11:35.056 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:11:35.100 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:11:35.108 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:11:35.354 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:11:35.354 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:11:35.355 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:11:35.382 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:11:35.382 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:11:35.398 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:11:35.398 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:11:35.399 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:11:35.425 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:11:35.426 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:11:35.427 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:11:35.427 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:11:35.428 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:11:35.455 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:11:36.136 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:[160] - Context refreshed
+[INFO] 2021-07-06 19:11:36.155 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:[163] - Found 1 custom documentation plugin(s)
+[INFO] 2021-07-06 19:11:36.188 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:[41] - Scanning for api listing references
+[INFO] 2021-07-06 19:11:36.437 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:[40] - Generating unique operation named: viewTreeUsingGET_1
+[INFO] 2021-07-06 19:11:36.566 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2021-07-06 19:11:36.583 org.mortbay.log:[67] - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+[WARN] 2021-07-06 19:11:36.600 org.eclipse.jetty.server.handler.ContextHandler.application:[2371] - unavailable
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at org.apache.jasper.compiler.JspRuntimeContext.<init>(JspRuntimeContext.java:174)
+	at org.apache.jasper.servlet.JspServlet.init(JspServlet.java:150)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:602)
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:414)
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:739)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:763)
+	at org.springframework.boot.web.embedded.jetty.JettyEmbeddedWebAppContext$JettyEmbeddedServletHandler.deferredInitialize(JettyEmbeddedWebAppContext.java:46)
+	at org.springframework.boot.web.embedded.jetty.JettyEmbeddedWebAppContext.deferredInitialize(JettyEmbeddedWebAppContext.java:36)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.handleDeferredInitialize(JettyWebServer.java:227)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.handleDeferredInitialize(JettyWebServer.java:230)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.start(JettyWebServer.java:142)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at org.apache.dolphinscheduler.api.ApiApplicationServer.main(ApiApplicationServer.java:35)
+[INFO] 2021-07-06 19:11:36.603 org.eclipse.jetty.server.session:[149] - node0 Stopped scavenging
+[INFO] 2021-07-06 19:11:36.603 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN] 2021-07-06 19:11:36.604 org.eclipse.jetty.servlet.ServletHolder:[1265] - 
+java.lang.NullPointerException: null
+	at org.apache.jasper.servlet.JspServlet.destroy(JspServlet.java:410)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:456)
+	at org.eclipse.jetty.servlet.ServletHolder$UnavailableServlet.destroy(ServletHolder.java:1261)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:456)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:285)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:437)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:425)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:519)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.handler.ContextHandler.stopContext(ContextHandler.java:1061)
+	at org.eclipse.jetty.servlet.ServletContextHandler.stopContext(ServletContextHandler.java:386)
+	at org.eclipse.jetty.webapp.WebAppContext.stopWebapp(WebAppContext.java:1462)
+	at org.eclipse.jetty.webapp.WebAppContext.stopContext(WebAppContext.java:1428)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:1115)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:297)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:547)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:470)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.stopSilently(JettyWebServer.java:122)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.start(JettyWebServer.java:165)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at org.apache.dolphinscheduler.api.ApiApplicationServer.main(ApiApplicationServer.java:35)
+[INFO] 2021-07-06 19:11:36.604 org.eclipse.jetty.server.handler.ContextHandler:[1154] - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@6e068ac9{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.14478499180918834200.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],STOPPED}
+[INFO] 2021-07-06 19:11:36.634 org.apache.dolphinscheduler.remote.NettyRemotingClient:[403] - netty client closed
+[INFO] 2021-07-06 19:11:36.635 org.apache.dolphinscheduler.service.log.LogClientService:[59] - logger client closed
+[INFO] 2021-07-06 19:15:01.648 org.eclipse.jetty.util.log:[169] - Logging initialized @3933ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] 2021-07-06 19:15:01.775 org.eclipse.jetty.server.Server:[375] - jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 11.0.8+10-b944.34
+[INFO] 2021-07-06 19:15:01.802 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Initializing Spring embedded WebApplicationContext
+[INFO] 2021-07-06 19:15:01.849 org.eclipse.jetty.server.session:[334] - DefaultSessionIdManager workerName=node0
+[INFO] 2021-07-06 19:15:01.850 org.eclipse.jetty.server.session:[339] - No SessionScavenger set, using defaults
+[INFO] 2021-07-06 19:15:01.852 org.eclipse.jetty.server.session:[132] - node0 Scavenging every 600000ms
+[INFO] 2021-07-06 19:15:01.855 org.eclipse.jetty.server.handler.ContextHandler:[916] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@559d19c{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.7232510319489743060.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],AVAILABLE}
+[INFO] 2021-07-06 19:15:01.856 org.eclipse.jetty.server.Server:[415] - Started @4143ms
+[INFO] 2021-07-06 19:15:03.049 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:15:03.098 org.apache.curator.utils.Compatibility:[48] - Running in ZooKeeper 3.4.x compatibility mode
+[INFO] 2021-07-06 19:15:03.099 org.apache.curator.utils.Compatibility:[61] - Using emulated InjectSessionExpiration
+[INFO] 2021-07-06 19:15:03.129 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:15:03.165 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:15:03.211 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:15:03.219 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:15:03.477 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:15:03.478 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:15:03.479 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:15:03.505 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:15:03.506 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:15:03.523 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:15:03.524 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:15:03.524 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:15:03.550 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:15:03.550 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:15:03.551 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:15:03.552 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:15:03.553 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:15:03.579 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:15:04.243 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:[160] - Context refreshed
+[INFO] 2021-07-06 19:15:04.261 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:[163] - Found 1 custom documentation plugin(s)
+[INFO] 2021-07-06 19:15:04.295 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:[41] - Scanning for api listing references
+[INFO] 2021-07-06 19:15:04.559 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:[40] - Generating unique operation named: viewTreeUsingGET_1
+[INFO] 2021-07-06 19:15:04.685 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2021-07-06 19:15:04.702 org.mortbay.log:[67] - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+[WARN] 2021-07-06 19:15:04.720 org.eclipse.jetty.server.handler.ContextHandler.application:[2371] - unavailable
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at org.apache.jasper.compiler.JspRuntimeContext.<init>(JspRuntimeContext.java:174)
+	at org.apache.jasper.servlet.JspServlet.init(JspServlet.java:150)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:602)
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:414)
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:739)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:763)
+	at org.springframework.boot.web.embedded.jetty.JettyEmbeddedWebAppContext$JettyEmbeddedServletHandler.deferredInitialize(JettyEmbeddedWebAppContext.java:46)
+	at org.springframework.boot.web.embedded.jetty.JettyEmbeddedWebAppContext.deferredInitialize(JettyEmbeddedWebAppContext.java:36)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.handleDeferredInitialize(JettyWebServer.java:227)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.handleDeferredInitialize(JettyWebServer.java:230)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.start(JettyWebServer.java:142)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at org.apache.dolphinscheduler.api.ApiApplicationServer.main(ApiApplicationServer.java:35)
+[INFO] 2021-07-06 19:15:04.722 org.eclipse.jetty.server.session:[149] - node0 Stopped scavenging
+[INFO] 2021-07-06 19:15:04.723 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN] 2021-07-06 19:15:04.724 org.eclipse.jetty.servlet.ServletHolder:[1265] - 
+java.lang.NullPointerException: null
+	at org.apache.jasper.servlet.JspServlet.destroy(JspServlet.java:410)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:456)
+	at org.eclipse.jetty.servlet.ServletHolder$UnavailableServlet.destroy(ServletHolder.java:1261)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:456)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:285)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:437)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:425)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:519)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.handler.ContextHandler.stopContext(ContextHandler.java:1061)
+	at org.eclipse.jetty.servlet.ServletContextHandler.stopContext(ServletContextHandler.java:386)
+	at org.eclipse.jetty.webapp.WebAppContext.stopWebapp(WebAppContext.java:1462)
+	at org.eclipse.jetty.webapp.WebAppContext.stopContext(WebAppContext.java:1428)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:1115)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:297)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:547)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:470)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.stopSilently(JettyWebServer.java:122)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.start(JettyWebServer.java:165)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at org.apache.dolphinscheduler.api.ApiApplicationServer.main(ApiApplicationServer.java:35)
+[INFO] 2021-07-06 19:15:04.724 org.eclipse.jetty.server.handler.ContextHandler:[1154] - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@559d19c{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.7232510319489743060.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],STOPPED}
+[INFO] 2021-07-06 19:15:04.753 org.apache.dolphinscheduler.remote.NettyRemotingClient:[403] - netty client closed
+[INFO] 2021-07-06 19:15:04.754 org.apache.dolphinscheduler.service.log.LogClientService:[59] - logger client closed
+[INFO] 2021-07-06 19:15:44.815 org.eclipse.jetty.util.log:[169] - Logging initialized @3138ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] 2021-07-06 19:15:44.932 org.eclipse.jetty.server.Server:[375] - jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 11.0.8+10-b944.34
+[INFO] 2021-07-06 19:15:44.951 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Initializing Spring embedded WebApplicationContext
+[INFO] 2021-07-06 19:15:44.999 org.eclipse.jetty.server.session:[334] - DefaultSessionIdManager workerName=node0
+[INFO] 2021-07-06 19:15:45.000 org.eclipse.jetty.server.session:[339] - No SessionScavenger set, using defaults
+[INFO] 2021-07-06 19:15:45.002 org.eclipse.jetty.server.session:[132] - node0 Scavenging every 600000ms
+[INFO] 2021-07-06 19:15:45.007 org.eclipse.jetty.server.handler.ContextHandler:[916] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4239262e{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.12078000532387586966.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],AVAILABLE}
+[INFO] 2021-07-06 19:15:45.008 org.eclipse.jetty.server.Server:[415] - Started @3333ms
+[INFO] 2021-07-06 19:15:46.159 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:15:46.207 org.apache.curator.utils.Compatibility:[48] - Running in ZooKeeper 3.4.x compatibility mode
+[INFO] 2021-07-06 19:15:46.209 org.apache.curator.utils.Compatibility:[61] - Using emulated InjectSessionExpiration
+[INFO] 2021-07-06 19:15:46.239 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:15:46.265 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:15:46.310 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:15:46.319 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:15:46.575 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:15:46.576 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:15:46.577 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:15:46.619 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:15:46.619 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:15:46.636 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:15:46.637 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:15:46.638 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:15:46.664 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:15:46.665 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:15:46.666 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:15:46.666 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:15:46.667 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:15:46.693 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:15:47.328 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:[160] - Context refreshed
+[INFO] 2021-07-06 19:15:47.352 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:[163] - Found 1 custom documentation plugin(s)
+[INFO] 2021-07-06 19:15:47.384 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:[41] - Scanning for api listing references
+[INFO] 2021-07-06 19:15:47.637 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:[40] - Generating unique operation named: viewTreeUsingGET_1
+[INFO] 2021-07-06 19:15:47.769 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2021-07-06 19:15:47.786 org.mortbay.log:[67] - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+[WARN] 2021-07-06 19:15:47.803 org.eclipse.jetty.server.handler.ContextHandler.application:[2371] - unavailable
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at org.apache.jasper.compiler.JspRuntimeContext.<init>(JspRuntimeContext.java:174)
+	at org.apache.jasper.servlet.JspServlet.init(JspServlet.java:150)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:602)
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:414)
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:739)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:763)
+	at org.springframework.boot.web.embedded.jetty.JettyEmbeddedWebAppContext$JettyEmbeddedServletHandler.deferredInitialize(JettyEmbeddedWebAppContext.java:46)
+	at org.springframework.boot.web.embedded.jetty.JettyEmbeddedWebAppContext.deferredInitialize(JettyEmbeddedWebAppContext.java:36)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.handleDeferredInitialize(JettyWebServer.java:227)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.handleDeferredInitialize(JettyWebServer.java:230)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.start(JettyWebServer.java:142)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at org.apache.dolphinscheduler.api.ApiApplicationServer.main(ApiApplicationServer.java:35)
+[INFO] 2021-07-06 19:15:47.806 org.eclipse.jetty.server.session:[149] - node0 Stopped scavenging
+[INFO] 2021-07-06 19:15:47.807 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN] 2021-07-06 19:15:47.807 org.eclipse.jetty.servlet.ServletHolder:[1265] - 
+java.lang.NullPointerException: null
+	at org.apache.jasper.servlet.JspServlet.destroy(JspServlet.java:410)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:456)
+	at org.eclipse.jetty.servlet.ServletHolder$UnavailableServlet.destroy(ServletHolder.java:1261)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:456)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:285)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:437)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:425)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:519)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.handler.ContextHandler.stopContext(ContextHandler.java:1061)
+	at org.eclipse.jetty.servlet.ServletContextHandler.stopContext(ServletContextHandler.java:386)
+	at org.eclipse.jetty.webapp.WebAppContext.stopWebapp(WebAppContext.java:1462)
+	at org.eclipse.jetty.webapp.WebAppContext.stopContext(WebAppContext.java:1428)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:1115)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:297)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:547)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:470)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.stopSilently(JettyWebServer.java:122)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.start(JettyWebServer.java:165)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at org.apache.dolphinscheduler.api.ApiApplicationServer.main(ApiApplicationServer.java:35)
+[INFO] 2021-07-06 19:15:47.808 org.eclipse.jetty.server.handler.ContextHandler:[1154] - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@4239262e{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.12078000532387586966.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],STOPPED}
+[INFO] 2021-07-06 19:15:47.836 org.apache.dolphinscheduler.remote.NettyRemotingClient:[403] - netty client closed
+[INFO] 2021-07-06 19:15:47.836 org.apache.dolphinscheduler.service.log.LogClientService:[59] - logger client closed
+[INFO] 2021-07-06 19:23:17.650 org.eclipse.jetty.util.log:[169] - Logging initialized @4237ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] 2021-07-06 19:23:17.845 org.eclipse.jetty.server.Server:[375] - jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 11.0.8+10-b944.34
+[INFO] 2021-07-06 19:23:17.867 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Initializing Spring embedded WebApplicationContext
+[INFO] 2021-07-06 19:23:17.917 org.eclipse.jetty.server.session:[334] - DefaultSessionIdManager workerName=node0
+[INFO] 2021-07-06 19:23:17.917 org.eclipse.jetty.server.session:[339] - No SessionScavenger set, using defaults
+[INFO] 2021-07-06 19:23:17.918 org.eclipse.jetty.server.session:[132] - node0 Scavenging every 660000ms
+[INFO] 2021-07-06 19:23:17.925 org.eclipse.jetty.server.handler.ContextHandler:[916] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@778b88d0{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.12149385402251443012.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],AVAILABLE}
+[INFO] 2021-07-06 19:23:17.926 org.eclipse.jetty.server.Server:[415] - Started @4514ms
+[INFO] 2021-07-06 19:23:19.323 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:23:19.373 org.apache.curator.utils.Compatibility:[48] - Running in ZooKeeper 3.4.x compatibility mode
+[INFO] 2021-07-06 19:23:19.375 org.apache.curator.utils.Compatibility:[61] - Using emulated InjectSessionExpiration
+[INFO] 2021-07-06 19:23:19.405 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:23:19.430 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:23:19.477 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:23:19.488 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:23:19.758 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:23:19.758 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:23:19.759 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:23:19.793 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:23:19.793 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:23:19.809 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:23:19.810 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:23:19.811 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:23:19.854 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:23:19.854 org.apache.dolphinscheduler.service.zk.ZookeeperCachedOperator:[55] - add listener to zk path: /dolphinscheduler
+[INFO] 2021-07-06 19:23:19.855 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[87] - zookeeper registry center init, server lists is: localhost:2181.
+[INFO] 2021-07-06 19:23:19.856 org.apache.curator.framework.imps.CuratorFrameworkImpl:[308] - Starting
+[INFO] 2021-07-06 19:23:19.857 org.apache.curator.framework.imps.CuratorFrameworkImpl:[356] - Default schema
+[INFO] 2021-07-06 19:23:19.883 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: CONNECTED
+[INFO] 2021-07-06 19:23:20.617 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:[160] - Context refreshed
+[INFO] 2021-07-06 19:23:20.635 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:[163] - Found 1 custom documentation plugin(s)
+[INFO] 2021-07-06 19:23:20.669 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:[41] - Scanning for api listing references
+[INFO] 2021-07-06 19:23:20.930 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:[40] - Generating unique operation named: viewTreeUsingGET_1
+[INFO] 2021-07-06 19:23:21.082 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2021-07-06 19:23:21.102 org.mortbay.log:[67] - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+[INFO] 2021-07-06 19:23:21.129 org.eclipse.jetty.server.AbstractConnector:[331] - Started ServerConnector@7aa76526{HTTP/1.1, (http/1.1)}{0.0.0.0:12345}
+[INFO] 2021-07-06 19:23:42.317 org.apache.dolphinscheduler.api.controller.LoginController:[84] - login user name: admin 
+[INFO] 2021-07-06 19:23:42.773 com.alibaba.druid.pool.DruidDataSource:[991] - {dataSource-1} inited
+[INFO] 2021-07-06 19:23:42.904 org.apache.dolphinscheduler.api.security.PasswordAuthenticator:[59] - sessionId : d0716ad5-da0b-43ca-b6d7-f85d126abbe3
+[INFO] 2021-07-06 19:23:44.267 org.apache.dolphinscheduler.api.controller.UsersController:[299] - login user admin,get user info
+[INFO] 2021-07-06 19:23:44.633 org.apache.dolphinscheduler.api.controller.TenantController:[112] - login user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:23:50.123 org.apache.dolphinscheduler.api.controller.UsersController:[116] - login user admin, list user paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:23:52.886 org.apache.dolphinscheduler.api.controller.AlertGroupController:[124] - login  user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:23:53.814 org.apache.dolphinscheduler.api.controller.WorkerGroupController:[173] - query worker address list: login user admin
+[INFO] 2021-07-06 19:23:53.877 org.apache.dolphinscheduler.api.controller.WorkerGroupController:[117] - query all worker group paging: login user admin, pageNo:1, pageSize:10, searchVal:
+[INFO] 2021-07-06 19:23:54.747 org.apache.dolphinscheduler.api.controller.QueueController:[95] - login user admin, query queue list,search value:
+[INFO] 2021-07-06 19:23:55.401 org.apache.dolphinscheduler.api.controller.AccessTokenController:[123] - login user admin, list access token paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:23:56.094 org.apache.dolphinscheduler.api.controller.TenantController:[112] - login user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:30.824 org.apache.dolphinscheduler.api.controller.UsersController:[116] - login user admin, list user paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:32.002 org.apache.dolphinscheduler.api.controller.WorkerGroupController:[173] - query worker address list: login user admin
+[INFO] 2021-07-06 19:25:32.086 org.apache.dolphinscheduler.api.controller.WorkerGroupController:[117] - query all worker group paging: login user admin, pageNo:1, pageSize:10, searchVal:
+[INFO] 2021-07-06 19:25:32.801 org.apache.dolphinscheduler.api.controller.AlertGroupController:[124] - login  user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:33.677 org.apache.dolphinscheduler.api.controller.TenantController:[112] - login user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:34.441 org.apache.dolphinscheduler.api.controller.QueueController:[95] - login user admin, query queue list,search value:
+[INFO] 2021-07-06 19:25:36.285 org.apache.dolphinscheduler.api.controller.AccessTokenController:[123] - login user admin, list access token paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:37.514 org.apache.dolphinscheduler.api.controller.TenantController:[112] - login user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:39.466 org.apache.dolphinscheduler.api.controller.UsersController:[116] - login user admin, list user paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:39.980 org.apache.dolphinscheduler.api.controller.AlertGroupController:[124] - login  user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:40.760 org.apache.dolphinscheduler.api.controller.WorkerGroupController:[173] - query worker address list: login user admin
+[INFO] 2021-07-06 19:25:40.835 org.apache.dolphinscheduler.api.controller.WorkerGroupController:[117] - query all worker group paging: login user admin, pageNo:1, pageSize:10, searchVal:
+[INFO] 2021-07-06 19:25:41.347 org.apache.dolphinscheduler.api.controller.QueueController:[95] - login user admin, query queue list,search value:
+[INFO] 2021-07-06 19:25:41.767 org.apache.dolphinscheduler.api.controller.AccessTokenController:[123] - login user admin, list access token paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:42.384 org.apache.dolphinscheduler.api.controller.TenantController:[112] - login user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:25:56.466 org.apache.dolphinscheduler.api.controller.UsersController:[116] - login user admin, list user paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:26:13.261 org.apache.dolphinscheduler.api.controller.TenantController:[112] - login user admin, list paging, pageNo: 1, searchVal: , pageSize: 10
+[INFO] 2021-07-06 19:32:34.171 org.apache.dolphinscheduler.remote.NettyRemotingClient:[403] - netty client closed
+[INFO] 2021-07-06 19:32:34.173 org.apache.dolphinscheduler.service.log.LogClientService:[59] - logger client closed
+[INFO] 2021-07-06 19:32:34.193 org.eclipse.jetty.server.AbstractConnector:[381] - Stopped ServerConnector@7aa76526{HTTP/1.1, (http/1.1)}{0.0.0.0:12345}
+[INFO] 2021-07-06 19:32:34.194 org.eclipse.jetty.server.session:[149] - node0 Stopped scavenging
+[INFO] 2021-07-06 19:32:34.198 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] 2021-07-06 19:32:34.206 org.eclipse.jetty.server.handler.ContextHandler:[1154] - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@778b88d0{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.12149385402251443012.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],STOPPED}

@@ -1,0 +1,6 @@
+[INFO] 2021-07-30 22:21:00.865 org.apache.dolphinscheduler.remote.NettyRemotingClient:[403] - netty client closed
+[INFO] 2021-07-30 22:21:00.913 org.apache.dolphinscheduler.service.log.LogClientService:[59] - logger client closed
+[INFO] 2021-07-30 22:21:01.034 org.eclipse.jetty.server.AbstractConnector:[381] - Stopped ServerConnector@2c18a31e{HTTP/1.1, (http/1.1)}{0.0.0.0:12345}
+[INFO] 2021-07-30 22:21:01.035 org.eclipse.jetty.server.session:[149] - node0 Stopped scavenging
+[INFO] 2021-07-30 22:21:01.061 org.eclipse.jetty.server.handler.ContextHandler.application:[2362] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] 2021-07-30 22:21:01.163 org.eclipse.jetty.server.handler.ContextHandler:[1154] - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@6a804a5a{application,/dolphinscheduler,[file:///private/var/folders/75/c1ln5b850l50lzyj_4x1hk7w0000gn/T/jetty-docbase.340276202550239395.12345/, jar:file:/Users/kirin/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/Users/kirin/.m2/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],STOPPED}

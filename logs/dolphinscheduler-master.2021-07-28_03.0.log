@@ -1,0 +1,93 @@
+[WARN] 2021-07-28 03:21:07.312 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 30572ms for sessionid 0x100110712be0010
+[WARN] 2021-07-28 03:21:07.312 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 27566ms for sessionid 0x100110712be000c
+[WARN] 2021-07-28 03:21:07.312 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 27565ms for sessionid 0x100110712be000e
+[WARN] 2021-07-28 03:21:07.312 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 27565ms for sessionid 0x100110712be000f
+[INFO] 2021-07-28 03:21:07.686 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 30572ms for sessionid 0x100110712be0010, closing socket connection and attempting reconnect
+[INFO] 2021-07-28 03:21:07.694 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 27566ms for sessionid 0x100110712be000c, closing socket connection and attempting reconnect
+[INFO] 2021-07-28 03:21:07.695 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 27565ms for sessionid 0x100110712be000e, closing socket connection and attempting reconnect
+[INFO] 2021-07-28 03:21:07.711 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 27565ms for sessionid 0x100110712be000f, closing socket connection and attempting reconnect
+[INFO] 2021-07-28 03:21:08.173 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[INFO] 2021-07-28 03:21:08.173 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[WARN] 2021-07-28 03:21:08.179 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[WARN] 2021-07-28 03:21:08.181 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[INFO] 2021-07-28 03:21:08.212 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[INFO] 2021-07-28 03:21:08.212 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[WARN] 2021-07-28 03:21:08.214 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[WARN] 2021-07-28 03:21:08.219 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[95] - master : 192.168.0.103:5678 connection SUSPENDED 
+[INFO] 2021-07-28 03:21:09.416 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[241] - worker node deleted : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234
+[INFO] 2021-07-28 03:21:09.417 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - WORKER node deleted : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234
+[INFO] 2021-07-28 03:21:09.448 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-07-28 03:21:09.452 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+[INFO] 2021-07-28 03:21:09.460 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100110712be000c, negotiated timeout = 40000
+[INFO] 2021-07-28 03:21:09.460 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-07-28 03:21:09.567 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[221] - worker group node : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234 down.
+[WARN] 2021-07-28 03:21:09.670 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[INFO] 2021-07-28 03:21:09.672 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[92] - master : 192.168.0.103:5678 reconnected to zookeeper
+[INFO] 2021-07-28 03:21:09.733 org.apache.dolphinscheduler.service.zk.RegisterOperator:[115] - WORKER server dead , and /dolphinscheduler/nodes/worker/default/192.168.0.103:1234 added to zk dead server path success
+[INFO] 2021-07-28 03:21:09.733 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[319] - start worker[192.168.0.103:1234] failover ...
+[INFO] 2021-07-28 03:21:09.752 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-07-28 03:21:09.752 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+[INFO] 2021-07-28 03:21:09.753 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100110712be000e, negotiated timeout = 40000
+[INFO] 2021-07-28 03:21:09.754 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-07-28 03:21:09.755 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-07-28 03:21:09.757 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[344] - end worker[192.168.0.103:1234] failover ...
+[INFO] 2021-07-28 03:21:09.825 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[258] - master node : /dolphinscheduler/nodes/master/192.168.0.103:5678 down.
+[INFO] 2021-07-28 03:21:09.846 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-07-28 03:21:09.847 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[INFO] 2021-07-28 03:21:09.851 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100110712be0010, negotiated timeout = 40000
+[INFO] 2021-07-28 03:21:09.852 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-07-28 03:21:09.852 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-07-28 03:21:09.932 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[238] - worker node added : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234
+[INFO] 2021-07-28 03:21:09.932 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[241] - worker node deleted : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234
+[INFO] 2021-07-28 03:21:09.933 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - WORKER node deleted : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234
+[INFO] 2021-07-28 03:21:09.966 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[215] - worker group node : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234 added.
+[INFO] 2021-07-28 03:21:09.982 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[ERROR] 2021-07-28 03:21:09.994 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[181] - update key : /dolphinscheduler/nodes/master/192.168.0.103:5678 , value : 0.36,0.66,9.92,2.75,16.0,0.3,2021-07-23 14:16:04,2021-07-28 03:21:09,0,53104
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:114)
+	at org.apache.zookeeper.ZooKeeper.multiInternal(ZooKeeper.java:1015)
+	at org.apache.zookeeper.ZooKeeper.multi(ZooKeeper.java:919)
+	at org.apache.curator.framework.imps.CuratorTransactionImpl.doOperation(CuratorTransactionImpl.java:197)
+	at org.apache.curator.framework.imps.CuratorTransactionImpl.access$000(CuratorTransactionImpl.java:37)
+	at org.apache.curator.framework.imps.CuratorTransactionImpl$2.call(CuratorTransactionImpl.java:130)
+	at org.apache.curator.framework.imps.CuratorTransactionImpl$2.call(CuratorTransactionImpl.java:126)
+	at org.apache.curator.connection.StandardConnectionHandlingPolicy.callWithRetry(StandardConnectionHandlingPolicy.java:67)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:81)
+	at org.apache.curator.framework.imps.CuratorTransactionImpl.commit(CuratorTransactionImpl.java:123)
+	at org.apache.dolphinscheduler.service.zk.ZookeeperOperator.update(ZookeeperOperator.java:179)
+	at org.apache.dolphinscheduler.server.registry.HeartBeatTask.run(HeartBeatTask.java:99)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[INFO] 2021-07-28 03:21:09.998 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-07-28 03:21:09.998 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+[INFO] 2021-07-28 03:21:09.999 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100110712be000f, negotiated timeout = 40000
+[INFO] 2021-07-28 03:21:10.030 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-07-28 03:21:10.031 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-07-28 03:21:10.064 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[218] - currentNodes : [192.168.0.103:1234]
+[INFO] 2021-07-28 03:21:10.065 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[254] - master node : /dolphinscheduler/nodes/master/192.168.0.103:5678 added.
+[INFO] 2021-07-28 03:21:10.067 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[258] - master node : /dolphinscheduler/nodes/master/192.168.0.103:5678 down.
+[INFO] 2021-07-28 03:21:10.067 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[319] - start worker[192.168.0.103:1234] failover ...
+[INFO] 2021-07-28 03:21:10.077 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[344] - end worker[192.168.0.103:1234] failover ...
+[INFO] 2021-07-28 03:21:10.093 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[254] - master node : /dolphinscheduler/nodes/master/192.168.0.103:5678 added.
+[INFO] 2021-07-28 03:21:10.192 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - MASTER node deleted : /dolphinscheduler/nodes/master/192.168.0.103:5678
+[INFO] 2021-07-28 03:21:10.282 org.apache.dolphinscheduler.service.zk.RegisterOperator:[115] - MASTER server dead , and /dolphinscheduler/nodes/master/192.168.0.103:5678 added to zk dead server path success
+[INFO] 2021-07-28 03:21:10.282 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[353] - start master failover ...
+[INFO] 2021-07-28 03:21:10.291 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[357] - failover process list size:0 
+[INFO] 2021-07-28 03:21:10.292 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[368] - master failover end
+[INFO] 2021-07-28 03:21:10.333 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[238] - worker node added : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234
+[INFO] 2021-07-28 03:21:10.334 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[219] - master node added : /dolphinscheduler/nodes/master/192.168.0.103:5678
+[INFO] 2021-07-28 03:21:10.334 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - MASTER node deleted : /dolphinscheduler/nodes/master/192.168.0.103:5678
+[INFO] 2021-07-28 03:21:10.379 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[353] - start master failover ...
+[INFO] 2021-07-28 03:21:10.385 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[357] - failover process list size:0 
+[INFO] 2021-07-28 03:21:10.385 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[368] - master failover end
+[INFO] 2021-07-28 03:21:10.432 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[219] - master node added : /dolphinscheduler/nodes/master/192.168.0.103:5678
+[INFO] 2021-07-28 03:21:12.494 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[221] - worker group node : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234 down.
+[INFO] 2021-07-28 03:21:12.494 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[241] - worker node deleted : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234
+[INFO] 2021-07-28 03:21:12.495 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - WORKER node deleted : /dolphinscheduler/nodes/worker/default/192.168.0.103:1234
+[INFO] 2021-07-28 03:21:12.547 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[319] - start worker[192.168.0.103:1234] failover ...
+[INFO] 2021-07-28 03:21:12.556 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[344] - end worker[192.168.0.103:1234] failover ...
+[INFO] 2021-07-28 03:21:19.245 org.apache.dolphinscheduler.server.master.MasterServer:[164] - master server is stopping ..., cause : i was judged to death, release resources and stop myself

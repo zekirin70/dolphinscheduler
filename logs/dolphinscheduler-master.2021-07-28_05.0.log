@@ -1,0 +1,19 @@
+[INFO] 2021-07-28 05:21:26.234 org.apache.dolphinscheduler.remote.NettyRemotingClient:[403] - netty client closed
+[INFO] 2021-07-28 05:21:26.255 org.apache.dolphinscheduler.server.master.runner.MasterSchedulerService:[111] - master schedule service stopped...
+[INFO] 2021-07-28 05:21:26.264 org.apache.dolphinscheduler.remote.NettyRemotingServer:[237] - netty server closed
+[INFO] 2021-07-28 05:21:26.344 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - MASTER node deleted : /dolphinscheduler/nodes/master/192.168.0.103:5678
+[INFO] 2021-07-28 05:21:26.344 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[258] - master node : /dolphinscheduler/nodes/master/192.168.0.103:5678 down.
+[INFO] 2021-07-28 05:21:26.346 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[118] - master node : 192.168.0.103:5678 unRegistry to ZK.
+[INFO] 2021-07-28 05:21:26.350 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[120] - heartbeat executor shutdown
+[INFO] 2021-07-28 05:21:26.419 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[353] - start master failover ...
+[INFO] 2021-07-28 05:21:26.435 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[357] - failover process list size:0 
+[INFO] 2021-07-28 05:21:26.435 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[368] - master failover end
+[INFO] 2021-07-28 05:21:26.888 org.apache.curator.framework.imps.CuratorFrameworkImpl:[955] - backgroundOperationsLoop exiting
+[INFO] 2021-07-28 05:21:27.018 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100110712be000d
+[INFO] 2021-07-28 05:21:27.018 org.apache.zookeeper.ZooKeeper:[693] - Session: 0x100110712be000d closed
+[INFO] 2021-07-28 05:21:27.025 org.quartz.core.QuartzScheduler:[666] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1627020966214 shutting down.
+[INFO] 2021-07-28 05:21:27.028 org.quartz.core.QuartzScheduler:[585] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1627020966214 paused.
+[INFO] 2021-07-28 05:21:27.089 com.alibaba.druid.pool.DruidDataSource:[1928] - {dataSource-1} closed
+[INFO] 2021-07-28 05:21:27.092 org.quartz.core.QuartzScheduler:[740] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1627020966214 shutdown complete.
+[INFO] 2021-07-28 05:21:27.093 org.apache.dolphinscheduler.service.quartz.QuartzExecutors:[171] - Quartz service stopped, and halt all tasks
+[INFO] 2021-07-28 05:21:27.093 org.apache.dolphinscheduler.server.master.MasterServer:[182] - Quartz service stopped
