@@ -21,6 +21,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -38,6 +39,28 @@ public interface ScheduleMapper extends BaseMapper<Schedule> {
     IPage<Schedule> queryByProcessDefineIdPaging(IPage<Schedule> page,
                                                  @Param("processDefinitionId") int processDefinitionId,
                                                  @Param("searchVal") String searchVal);
+
+    /**
+     * schedule list page
+     * @param page page
+     * @param searchVal searchVal
+     * @param userId userId
+     * @param projectId projectId
+     * @param isAdmin isAdmin
+     * @return scheduler IPage
+     * @param statusArray statusArray
+     * @param startTime startTime
+     * @param endTime endTime
+     */
+    IPage<Schedule> queryScheduleListPage(IPage<Schedule> page,
+                                                 @Param("searchVal") String searchVal,
+                                                 @Param("userId") int userId,
+                                                 @Param("projectId") int projectId,
+                                                 @Param("isAdmin") boolean isAdmin,
+                                                 @Param("states") int[] statusArray,
+                                                 @Param("startTime") Date startTime,
+                                                 @Param("endTime") Date endTime
+                                                 );
 
     /**
      * query schedule list by project name

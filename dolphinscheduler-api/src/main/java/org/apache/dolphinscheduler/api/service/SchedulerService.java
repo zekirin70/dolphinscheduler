@@ -445,6 +445,56 @@ public class SchedulerService extends BaseService {
     }
 
     /**
+     * query schedule list page
+     *
+     * @param loginUser login user
+     * @param projectName project name
+     * @param searchVal search value
+     * @param pageNo page number
+     * @param pageSize page size
+     * @param userId user id
+     * @return schedule list page
+     */
+    public Map<String, Object> queryScheduleListPage(User loginUser, String projectName, String searchVal,
+                                                     Integer pageNo, Integer pageSize, Integer userId,
+                                                     ReleaseState stateType, String startDate, String endDate) {
+
+        HashMap<String, Object> result = new HashMap<>();
+
+        Project project = projectMapper.queryByName(projectName);
+
+        // check project auth
+        boolean hasProjectAndPerm = projectService.hasProjectAndPerm(loginUser, project, result);
+        if (!hasProjectAndPerm) {
+            return result;
+        }
+        int[] statusArray = null;
+        // filter by state
+        if (stateType != null) {
+            statusArray = new int[]{stateType.ordinal()};
+        }
+        Map<String, Object> checkAndParseDateResult = checkAndParseDateParameters(startDate, endDate);
+        if (checkAndParseDateResult.get(Constants.STATUS) != Status.SUCCESS) {
+            return checkAndParseDateResult;
+        }
+        Date start = (Date) checkAndParseDateResult.get(Constants.START_TIME);
+        Date end = (Date) checkAndParseDateResult.get(Constants.END_TIME);
+
+        Page<Schedule> page = new Page(pageNo, pageSize);
+        IPage<Schedule> scheduleIPage = scheduleMapper.queryScheduleListPage(
+                page, searchVal, userId, project.getId(),isAdmin(loginUser),statusArray,start,end
+        );
+
+        PageInfo pageInfo = new PageInfo<Schedule>(pageNo, pageSize);
+        pageInfo.setTotalCount((int)scheduleIPage.getTotal());
+        pageInfo.setLists(scheduleIPage.getRecords());
+        result.put(Constants.DATA_LIST, pageInfo);
+        putMsg(result, Status.SUCCESS);
+
+        return result;
+    }
+
+    /**
      * query schedule list
      *
      * @param loginUser login user

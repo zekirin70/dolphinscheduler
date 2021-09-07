@@ -85,9 +85,9 @@ const router = new Router({
               }
             },
             {
-              path: '/projects/definition/list/timinglist',
+              path: '/projects/definition/list/timing-list',
               name: 'definition-timinglist',
-              component: resolve => require(['../pages/projects/pages/definition/timinglist/index'], resolve),
+              component: resolve => require(['../pages/projects/pages/definition/timingList2/index'], resolve),
               meta: {
                 title: `${i18n.$t('Process definition')}`
               }

@@ -1,0 +1,36 @@
+[INFO] 2021-08-15 21:21:16.650 org.apache.dolphinscheduler.server.master.MasterServer:[164] - master server is stopping ..., cause : shutdownHook
+[INFO] 2021-08-15 21:21:17.514 org.apache.curator.framework.imps.CuratorFrameworkImpl:[955] - backgroundOperationsLoop exiting
+[INFO] 2021-08-15 21:21:17.572 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100000d5d0c0042
+[INFO] 2021-08-15 21:21:17.572 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - MASTER node deleted : /dolphinscheduler/nodes/master/192.168.31.249:5678
+[INFO] 2021-08-15 21:21:17.571 org.apache.zookeeper.ZooKeeper:[693] - Session: 0x100000d5d0c0042 closed
+[INFO] 2021-08-15 21:21:17.581 org.apache.dolphinscheduler.server.master.processor.queue.TaskResponseService:[121] - TaskResponseWorker stopped
+[INFO] 2021-08-15 21:21:17.665 org.apache.dolphinscheduler.service.zk.RegisterOperator:[115] - MASTER server dead , and /dolphinscheduler/nodes/master/192.168.31.249:5678 added to zk dead server path success
+[INFO] 2021-08-15 21:21:17.666 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[353] - start master failover ...
+[INFO] 2021-08-15 21:21:17.747 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[357] - failover process list size:0 
+[INFO] 2021-08-15 21:21:17.747 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[368] - master failover end
+[INFO] 2021-08-15 21:21:19.838 org.apache.dolphinscheduler.remote.NettyRemotingClient:[403] - netty client closed
+[INFO] 2021-08-15 21:21:19.839 org.apache.dolphinscheduler.server.master.runner.MasterSchedulerService:[111] - master schedule service stopped...
+[INFO] 2021-08-15 21:21:19.844 org.apache.dolphinscheduler.remote.NettyRemotingServer:[237] - netty server closed
+[ERROR] 2021-08-15 21:21:19.869 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[160] - isExisted key : /dolphinscheduler/nodes/master/192.168.31.249:5678
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:823)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:432)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:459)
+	at org.apache.dolphinscheduler.service.zk.ZookeeperOperator.isExisted(ZookeeperOperator.java:158)
+	at org.apache.dolphinscheduler.service.zk.ZookeeperOperator.remove(ZookeeperOperator.java:224)
+	at org.apache.dolphinscheduler.server.master.registry.MasterRegistry.unRegistry(MasterRegistry.java:117)
+	at org.apache.dolphinscheduler.server.master.zk.ZKMasterClient.close(ZKMasterClient.java:114)
+	at org.apache.dolphinscheduler.server.master.MasterServer.close(MasterServer.java:178)
+	at org.apache.dolphinscheduler.server.master.MasterServer.lambda$run$0(MasterServer.java:145)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[INFO] 2021-08-15 21:21:19.870 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[118] - master node : 192.168.31.249:5678 unRegistry to ZK.
+[INFO] 2021-08-15 21:21:19.871 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[120] - heartbeat executor shutdown
+[INFO] 2021-08-15 21:21:20.376 org.apache.curator.framework.imps.CuratorFrameworkImpl:[955] - backgroundOperationsLoop exiting
+[INFO] 2021-08-15 21:21:20.412 org.apache.zookeeper.ZooKeeper:[693] - Session: 0x100000d5d0c0043 closed
+[INFO] 2021-08-15 21:21:20.412 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100000d5d0c0043
+[INFO] 2021-08-15 21:21:20.421 org.quartz.core.QuartzScheduler:[666] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1629011264470 shutting down.
+[INFO] 2021-08-15 21:21:20.423 org.quartz.core.QuartzScheduler:[585] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1629011264470 paused.
+[INFO] 2021-08-15 21:21:20.454 com.alibaba.druid.pool.DruidDataSource:[1928] - {dataSource-1} closed
+[INFO] 2021-08-15 21:21:20.455 org.quartz.core.QuartzScheduler:[740] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1629011264470 shutdown complete.
+[INFO] 2021-08-15 21:21:20.455 org.apache.dolphinscheduler.service.quartz.QuartzExecutors:[171] - Quartz service stopped, and halt all tasks
+[INFO] 2021-08-15 21:21:20.456 org.apache.dolphinscheduler.server.master.MasterServer:[182] - Quartz service stopped

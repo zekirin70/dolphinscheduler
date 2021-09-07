@@ -20,10 +20,7 @@ package org.apache.dolphinscheduler.api.controller;
 import org.apache.dolphinscheduler.api.exceptions.ApiException;
 import org.apache.dolphinscheduler.api.service.SchedulerService;
 import org.apache.dolphinscheduler.api.utils.Result;
-import org.apache.dolphinscheduler.common.enums.FailureStrategy;
-import org.apache.dolphinscheduler.common.enums.Priority;
-import org.apache.dolphinscheduler.common.enums.ReleaseState;
-import org.apache.dolphinscheduler.common.enums.WarningType;
+import org.apache.dolphinscheduler.common.enums.*;
 import org.apache.dolphinscheduler.common.utils.ParameterUtils;
 import org.apache.dolphinscheduler.dao.entity.User;
 import io.swagger.annotations.*;
@@ -239,6 +236,45 @@ public class SchedulerController extends BaseController {
                 loginUser.getUserName(), projectName, processDefinitionId);
         searchVal = ParameterUtils.handleEscapes(searchVal);
         Map<String, Object> result = schedulerService.querySchedule(loginUser, projectName, processDefinitionId, searchVal, pageNo, pageSize);
+        return returnDataListPaging(result);
+    }
+
+    /**
+     * schedule list page
+     *
+     * @param loginUser           login user
+     * @param projectName         project name
+     * @param searchVal           search value
+     * @param pageNo              page number
+     * @param pageSize            page size
+     * @param userId              user id
+     * @return schedule list page
+     */
+    @ApiOperation(value = "queryScheduleListPage", notes = "QUERY_SCHEDULE_LIST_PAGING_NOTES")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "userId", value = "USER_ID", required = false, dataType = "Int", example = "100"),
+            @ApiImplicitParam(name = "searchVal", value = "SEARCH_VAL", type = "String"),
+            @ApiImplicitParam(name = "pageNo", value = "PAGE_NO", dataType = "Int", example = "100"),
+            @ApiImplicitParam(name = "pageSize", value = "PAGE_SIZE", dataType = "Int", example = "100"),
+            @ApiImplicitParam(name = "stateType", value = "RELEASE_STATE", type = "ReleaseState"),
+            @ApiImplicitParam(name = "startDate", value = "START_DATE", type = "String"),
+            @ApiImplicitParam(name = "endDate", value = "END_DATE", type = "String")
+    })
+    @GetMapping("/list-page")
+    @ApiException(QUERY_SCHEDULE_LIST_PAGING_ERROR)
+    public Result queryScheduleListPage(@ApiIgnore @RequestAttribute(value = SESSION_USER) User loginUser,
+                                        @ApiParam(name = "projectName", value = "PROJECT_NAME", required = true) @PathVariable String projectName,
+                                        @RequestParam(value = "userId", required = false, defaultValue = "0") Integer userId,
+                                        @RequestParam(value = "searchVal", required = false) String searchVal,
+                                        @RequestParam("pageNo") Integer pageNo,
+                                        @RequestParam("pageSize") Integer pageSize,
+                                        @RequestParam(value = "stateType", required = false) ReleaseState stateType,
+                                        @RequestParam(value = "startDate", required = false) String startTime,
+                                        @RequestParam(value = "endDate", required = false) String endTime) {
+        logger.info("login user {}, query schedule, project name: {}, state type:{}, start time:{}, end time:{}",
+                loginUser.getUserName(), projectName, stateType, startTime, endTime);
+        searchVal = ParameterUtils.handleEscapes(searchVal);
+        Map<String, Object> result = schedulerService.queryScheduleListPage(loginUser, projectName, searchVal, pageNo, pageSize, userId, stateType, startTime, endTime);
         return returnDataListPaging(result);
     }
 

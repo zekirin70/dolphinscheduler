@@ -22,7 +22,7 @@
           <template slot="button-group">
             <x-button type="ghost" size="small"  @click="() => this.$router.push({name: 'definition-create'})">{{$t('Create process')}}</x-button>
             <x-button type="ghost" size="small"  @click="_uploading">{{$t('Import process')}}</x-button>
-            <x-button type="ghost" size="small"  @click="() => this.$router.push({name: 'definition-timinglist'})">{{$t('Timing list')}}</x-button>
+            <x-button type="ghost" size="small"  @click="() => this.$router.push({name: 'definition-timinglist', query:{pagesize:searchParams.pageSize, pageno:searchParams.pageNo}})">{{$t('Timing list')}}</x-button>
           </template>
         </m-conditions>
       </template>

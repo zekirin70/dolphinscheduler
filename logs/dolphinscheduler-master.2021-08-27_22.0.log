@@ -1,0 +1,7 @@
+[WARN] 2021-08-27 22:24:22.663 org.apache.dolphinscheduler.common.utils.OSUtils:[442] - current cpu load average 16.97 is too high or available memory 1.4G is too low, under max.cpuload.avg=16.0 and reserved.memory=0.3G
+[WARN] 2021-08-27 22:24:23.685 org.apache.dolphinscheduler.common.utils.OSUtils:[442] - current cpu load average 16.97 is too high or available memory 1.39G is too low, under max.cpuload.avg=16.0 and reserved.memory=0.3G
+[WARN] 2021-08-27 22:24:24.686 org.apache.dolphinscheduler.common.utils.OSUtils:[442] - current cpu load average 16.97 is too high or available memory 1.38G is too low, under max.cpuload.avg=16.0 and reserved.memory=0.3G
+[WARN] 2021-08-27 22:24:25.688 org.apache.dolphinscheduler.common.utils.OSUtils:[442] - current cpu load average 16.97 is too high or available memory 1.37G is too low, under max.cpuload.avg=16.0 and reserved.memory=0.3G
+[WARN] 2021-08-27 22:24:26.696 org.apache.dolphinscheduler.common.utils.OSUtils:[442] - current cpu load average 16.97 is too high or available memory 1.36G is too low, under max.cpuload.avg=16.0 and reserved.memory=0.3G
+[WARN] 2021-08-27 22:24:26.854 org.apache.dolphinscheduler.server.master.dispatch.host.LowerWeightHostManager:[159] - worker 192.168.31.249:1234 current cpu load average 16.97 is too high or available memory 1.4G is too low
+[WARN] 2021-08-27 22:24:31.859 org.apache.dolphinscheduler.server.master.dispatch.host.LowerWeightHostManager:[159] - worker 192.168.31.249:1234 current cpu load average 16.97 is too high or available memory 1.4G is too low

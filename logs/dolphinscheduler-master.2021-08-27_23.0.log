@@ -1,0 +1,131 @@
+[WARN] 2021-08-27 23:46:23.355 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 46851ms for sessionid 0x100000d5d0c0080
+[WARN] 2021-08-27 23:46:23.355 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 43947ms for sessionid 0x100000d5d0c007e
+[WARN] 2021-08-27 23:46:23.355 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 46865ms for sessionid 0x100000d5d0c007f
+[WARN] 2021-08-27 23:46:23.355 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 44993ms for sessionid 0x100000d5d0c0081
+[WARN] 2021-08-27 23:46:23.355 org.apache.zookeeper.ClientCnxn:[1108] - Client session timed out, have not heard from server in 47234ms for sessionid 0x100000d5d0c007d
+[INFO] 2021-08-27 23:46:23.432 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 43947ms for sessionid 0x100000d5d0c007e, closing socket connection and attempting reconnect
+[INFO] 2021-08-27 23:46:23.432 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 46851ms for sessionid 0x100000d5d0c0080, closing socket connection and attempting reconnect
+[INFO] 2021-08-27 23:46:23.432 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 46865ms for sessionid 0x100000d5d0c007f, closing socket connection and attempting reconnect
+[INFO] 2021-08-27 23:46:23.432 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 47234ms for sessionid 0x100000d5d0c007d, closing socket connection and attempting reconnect
+[INFO] 2021-08-27 23:46:23.432 org.apache.zookeeper.ClientCnxn:[1156] - Client session timed out, have not heard from server in 44993ms for sessionid 0x100000d5d0c0081, closing socket connection and attempting reconnect
+[INFO] 2021-08-27 23:46:24.017 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[INFO] 2021-08-27 23:46:24.017 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[WARN] 2021-08-27 23:46:24.051 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[WARN] 2021-08-27 23:46:24.051 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[INFO] 2021-08-27 23:46:24.157 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[INFO] 2021-08-27 23:46:24.157 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[INFO] 2021-08-27 23:46:24.157 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: SUSPENDED
+[WARN] 2021-08-27 23:46:24.160 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[WARN] 2021-08-27 23:46:24.162 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[WARN] 2021-08-27 23:46:24.163 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[81] - connection SUSPENDED to zookeeper
+[WARN] 2021-08-27 23:46:24.168 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[95] - master : 192.168.31.249:5678 connection SUSPENDED 
+[INFO] 2021-08-27 23:46:25.297 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.325 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[WARN] 2021-08-27 23:46:25.420 org.apache.zookeeper.ClientCnxn:[1285] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c007d has expired
+[WARN] 2021-08-27 23:46:25.421 org.apache.curator.ConnectionState:[376] - Session expired event received
+[INFO] 2021-08-27 23:46:25.421 org.apache.zookeeper.ClientCnxn:[1154] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c007d has expired, closing socket connection
+[INFO] 2021-08-27 23:46:25.428 org.apache.zookeeper.ZooKeeper:[442] - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@75b38c36
+[INFO] 2021-08-27 23:46:25.451 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.452 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: LOST
+[INFO] 2021-08-27 23:46:25.453 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[INFO] 2021-08-27 23:46:25.453 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100000d5d0c007d
+[INFO] 2021-08-27 23:46:25.475 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.476 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+[WARN] 2021-08-27 23:46:25.480 org.apache.curator.ConnectionState:[376] - Session expired event received
+[WARN] 2021-08-27 23:46:25.480 org.apache.zookeeper.ClientCnxn:[1285] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c0080 has expired
+[INFO] 2021-08-27 23:46:25.481 org.apache.zookeeper.ZooKeeper:[442] - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@d3cce46
+[INFO] 2021-08-27 23:46:25.481 org.apache.zookeeper.ClientCnxn:[1154] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c0080 has expired, closing socket connection
+[INFO] 2021-08-27 23:46:25.484 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: LOST
+[INFO] 2021-08-27 23:46:25.485 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.486 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100000d5d0c0080
+[ERROR] 2021-08-27 23:46:25.486 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[77] - connection lost from zookeeper
+[INFO] 2021-08-27 23:46:25.486 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[INFO] 2021-08-27 23:46:25.501 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.502 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[WARN] 2021-08-27 23:46:25.504 org.apache.zookeeper.ClientCnxn:[1285] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c0081 has expired
+[WARN] 2021-08-27 23:46:25.504 org.apache.curator.ConnectionState:[376] - Session expired event received
+[INFO] 2021-08-27 23:46:25.505 org.apache.zookeeper.ClientCnxn:[1154] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c0081 has expired, closing socket connection
+[INFO] 2021-08-27 23:46:25.505 org.apache.zookeeper.ZooKeeper:[442] - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3d3930fe
+[INFO] 2021-08-27 23:46:25.507 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: LOST
+[INFO] 2021-08-27 23:46:25.508 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.509 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[ERROR] 2021-08-27 23:46:25.508 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[77] - connection lost from zookeeper
+[INFO] 2021-08-27 23:46:25.510 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100000d5d0c0081
+[INFO] 2021-08-27 23:46:25.679 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100000d5d0c0082, negotiated timeout = 40000
+[INFO] 2021-08-27 23:46:25.680 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-08-27 23:46:25.767 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100000d5d0c0083, negotiated timeout = 40000
+[INFO] 2021-08-27 23:46:25.768 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-08-27 23:46:25.768 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100000d5d0c0084, negotiated timeout = 40000
+[INFO] 2021-08-27 23:46:25.768 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-08-27 23:46:25.769 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-08-27 23:46:25.770 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-08-27 23:46:25.821 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.822 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+[INFO] 2021-08-27 23:46:25.823 org.apache.dolphinscheduler.server.master.MasterServer:[164] - master server is stopping ..., cause : i was judged to death, release resources and stop myself
+[WARN] 2021-08-27 23:46:25.827 org.apache.zookeeper.ClientCnxn:[1285] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c007f has expired
+[WARN] 2021-08-27 23:46:25.828 org.apache.curator.ConnectionState:[376] - Session expired event received
+[INFO] 2021-08-27 23:46:25.828 org.apache.zookeeper.ZooKeeper:[442] - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@49d42faf
+[INFO] 2021-08-27 23:46:25.828 org.apache.zookeeper.ClientCnxn:[1154] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c007f has expired, closing socket connection
+[INFO] 2021-08-27 23:46:25.831 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: LOST
+[INFO] 2021-08-27 23:46:25.832 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.832 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100000d5d0c007f
+[INFO] 2021-08-27 23:46:25.833 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[ERROR] 2021-08-27 23:46:25.833 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[77] - connection lost from zookeeper
+[INFO] 2021-08-27 23:46:25.862 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.863 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+[WARN] 2021-08-27 23:46:25.865 org.apache.zookeeper.ClientCnxn:[1285] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c007e has expired
+[INFO] 2021-08-27 23:46:25.866 org.apache.zookeeper.ClientCnxn:[1154] - Unable to reconnect to ZooKeeper service, session 0x100000d5d0c007e has expired, closing socket connection
+[WARN] 2021-08-27 23:46:25.866 org.apache.curator.ConnectionState:[376] - Session expired event received
+[INFO] 2021-08-27 23:46:25.866 org.apache.zookeeper.ZooKeeper:[442] - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@7b2bf745
+[INFO] 2021-08-27 23:46:25.868 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: LOST
+[INFO] 2021-08-27 23:46:25.868 org.apache.zookeeper.ClientCnxn:[1025] - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] 2021-08-27 23:46:25.868 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100000d5d0c007e
+[ERROR] 2021-08-27 23:46:25.869 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[77] - connection lost from zookeeper
+[INFO] 2021-08-27 23:46:25.869 org.apache.zookeeper.ClientCnxn:[879] - Socket connection established to localhost/127.0.0.1:2181, initiating session
+[ERROR] 2021-08-27 23:46:26.020 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[77] - connection lost from zookeeper
+[ERROR] 2021-08-27 23:46:26.022 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[90] - master : 192.168.31.249:5678 connection lost from zookeeper
+[INFO] 2021-08-27 23:46:26.022 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100000d5d0c0089, negotiated timeout = 40000
+[INFO] 2021-08-27 23:46:26.023 org.apache.zookeeper.ClientCnxn:[1299] - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100000d5d0c008a, negotiated timeout = 40000
+[INFO] 2021-08-27 23:46:26.023 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-08-27 23:46:26.024 org.apache.curator.framework.state.ConnectionStateManager:[251] - State change: RECONNECTED
+[INFO] 2021-08-27 23:46:26.024 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-08-27 23:46:26.024 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-08-27 23:46:26.027 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[92] - master : 192.168.31.249:5678 reconnected to zookeeper
+[INFO] 2021-08-27 23:46:26.028 org.apache.dolphinscheduler.service.zk.ZookeeperOperator:[79] - reconnected to zookeeper
+[INFO] 2021-08-27 23:46:26.118 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - MASTER node deleted : /dolphinscheduler/nodes/master/192.168.31.249:5678
+[INFO] 2021-08-27 23:46:26.119 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[258] - master node : /dolphinscheduler/nodes/master/192.168.31.249:5678 down.
+[INFO] 2021-08-27 23:46:26.354 org.apache.dolphinscheduler.service.zk.RegisterOperator:[115] - MASTER server dead , and /dolphinscheduler/nodes/master/192.168.31.249:5678 added to zk dead server path success
+[INFO] 2021-08-27 23:46:26.355 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[353] - start master failover ...
+[INFO] 2021-08-27 23:46:26.479 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[357] - failover process list size:0 
+[INFO] 2021-08-27 23:46:26.594 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[221] - worker group node : /dolphinscheduler/nodes/worker/default/192.168.31.249:1234 down.
+[INFO] 2021-08-27 23:46:26.622 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[368] - master failover end
+[INFO] 2021-08-27 23:46:26.638 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[215] - worker group node : /dolphinscheduler/nodes/worker/default/192.168.31.249:1234 added.
+[INFO] 2021-08-27 23:46:26.677 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[241] - worker node deleted : /dolphinscheduler/nodes/worker/default/192.168.31.249:1234
+[INFO] 2021-08-27 23:46:26.677 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - WORKER node deleted : /dolphinscheduler/nodes/worker/default/192.168.31.249:1234
+[INFO] 2021-08-27 23:46:26.677 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[218] - currentNodes : [192.168.31.249:1234]
+[INFO] 2021-08-27 23:46:26.678 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[254] - master node : /dolphinscheduler/nodes/master/192.168.31.249:5678 added.
+[INFO] 2021-08-27 23:46:26.732 org.apache.dolphinscheduler.service.zk.RegisterOperator:[115] - WORKER server dead , and /dolphinscheduler/nodes/worker/default/192.168.31.249:1234 added to zk dead server path success
+[INFO] 2021-08-27 23:46:26.732 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[319] - start worker[192.168.31.249:1234] failover ...
+[INFO] 2021-08-27 23:46:26.760 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[344] - end worker[192.168.31.249:1234] failover ...
+[INFO] 2021-08-27 23:46:26.787 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[238] - worker node added : /dolphinscheduler/nodes/worker/default/192.168.31.249:1234
+[INFO] 2021-08-27 23:46:26.787 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[219] - master node added : /dolphinscheduler/nodes/master/192.168.31.249:5678
+[INFO] 2021-08-27 23:46:28.865 org.apache.dolphinscheduler.remote.NettyRemotingClient:[403] - netty client closed
+[INFO] 2021-08-27 23:46:28.866 org.apache.dolphinscheduler.server.master.runner.MasterSchedulerService:[111] - master schedule service stopped...
+[INFO] 2021-08-27 23:46:28.872 org.apache.dolphinscheduler.remote.NettyRemotingServer:[237] - netty server closed
+[INFO] 2021-08-27 23:46:28.918 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[144] - MASTER node deleted : /dolphinscheduler/nodes/master/192.168.31.249:5678
+[INFO] 2021-08-27 23:46:28.919 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[258] - master node : /dolphinscheduler/nodes/master/192.168.31.249:5678 down.
+[INFO] 2021-08-27 23:46:28.919 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[118] - master node : 192.168.31.249:5678 unRegistry to ZK.
+[INFO] 2021-08-27 23:46:28.921 org.apache.dolphinscheduler.server.master.registry.MasterRegistry:[120] - heartbeat executor shutdown
+[INFO] 2021-08-27 23:46:28.974 org.apache.dolphinscheduler.server.master.registry.ServerNodeManager:[221] - worker group node : /dolphinscheduler/nodes/worker/default/192.168.31.249:1234 down.
+[INFO] 2021-08-27 23:46:29.009 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[353] - start master failover ...
+[INFO] 2021-08-27 23:46:29.021 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[357] - failover process list size:0 
+[INFO] 2021-08-27 23:46:29.021 org.apache.dolphinscheduler.server.master.zk.ZKMasterClient:[368] - master failover end
+[INFO] 2021-08-27 23:46:29.471 org.apache.curator.framework.imps.CuratorFrameworkImpl:[955] - backgroundOperationsLoop exiting
+[INFO] 2021-08-27 23:46:29.499 org.apache.zookeeper.ClientCnxn:[522] - EventThread shut down for session: 0x100000d5d0c008a
+[INFO] 2021-08-27 23:46:29.499 org.apache.zookeeper.ZooKeeper:[693] - Session: 0x100000d5d0c008a closed
+[INFO] 2021-08-27 23:46:29.508 org.quartz.core.QuartzScheduler:[666] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1629966694906 shutting down.
+[INFO] 2021-08-27 23:46:29.511 org.quartz.core.QuartzScheduler:[585] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1629966694906 paused.
+[INFO] 2021-08-27 23:46:29.614 com.alibaba.druid.pool.DruidDataSource:[1928] - {dataSource-1} closed
+[INFO] 2021-08-27 23:46:29.615 org.quartz.core.QuartzScheduler:[740] - Scheduler DolphinScheduler_$_Kirins-MacBook-Pro.local1629966694906 shutdown complete.
+[INFO] 2021-08-27 23:46:29.615 org.apache.dolphinscheduler.service.quartz.QuartzExecutors:[171] - Quartz service stopped, and halt all tasks
+[INFO] 2021-08-27 23:46:29.615 org.apache.dolphinscheduler.server.master.MasterServer:[182] - Quartz service stopped

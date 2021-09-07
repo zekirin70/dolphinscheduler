@@ -1,0 +1,2 @@
+[WARN] 2021-08-26 21:27:59.630 org.apache.dolphinscheduler.server.registry.HeartBeatTask:[80] - current cpu load average 18.52 is too high or available memory 0.98G is too low, under max.cpuload.avg=16.0 and reserved.memory=0.3G
+[WARN] 2021-08-26 21:28:09.584 org.apache.dolphinscheduler.server.registry.HeartBeatTask:[80] - current cpu load average 16.05 is too high or available memory 1.11G is too low, under max.cpuload.avg=16.0 and reserved.memory=0.3G
